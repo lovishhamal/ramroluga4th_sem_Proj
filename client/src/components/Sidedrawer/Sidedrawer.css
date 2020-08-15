@@ -1,0 +1,52 @@
+.sidedrawer {
+  width: 95%;
+  height: 90vh;
+  z-index: 250;
+  background: #fff;
+  position: fixed;
+  top: 2%;
+  left: 0%;
+  border-radius: 5px;
+  max-width: 400px;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.sidedrawer.open {
+  transform: translateX(3%);
+}
+.sidedrawer ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 88vh;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.close {
+  position: relative;
+  top: 4%;
+  right: 5%;
+}
+.far {
+  font-size: 30px;
+}
+
+fa-times-circle {
+  background: #fff;
+}
+.sidebar-items li:nth-child(1) {
+  padding: 20px 146px;
+}
+
+.sidebar-items li:nth-child(3) {
+  padding: 20px 128px;
+}
+
+.sidebar-items li:nth-child(5) {
+  padding: 20px 137px;
+}

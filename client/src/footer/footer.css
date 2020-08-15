@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+.footer {
+	background: rgb(7, 91, 154);
+	margin-top: 5%;
+	font-family: sans-serif;
+}
+.heading {
+	color: #fff;
+	font-family: 'Bitter', serif;
+	font-size: 20px;
+}
+
+.footer-head {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	height: 50vh;
+	font-size: 25px;
+	margin-top: 70px;
+}
+
+.dummy {
+	margin-top: 10px;
+	font-family: 'Bitter', serif;
+}

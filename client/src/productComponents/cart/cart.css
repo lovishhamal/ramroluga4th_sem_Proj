@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+.cart-main {
+	background: #f8f9fa;
+	height: 100vh;
+}
+.cart-wrapper {
+	margin-left: 5%;
+	padding: 0;
+	width: 90%;
+	height: 550px;
+	background: #fff;
+	border-radius: 10px;
+	border: 2px solid rgba(0, 0, 0, 0.125);
+	display: flex;
+	flex-direction: column;
+	overflow: scroll;
+	justify-content: start;
+	position: absolute;
+	top: 15%;
+}
+.cart {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.empty-cart {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.container-total {
+	position: relative;
+	right: 3%;
+	top: -5%;
+	width: 100%;
+}
+
+.quantity {
+	display: flex;
+	flex-direction: row;
+}
+
+.quantity > div {
+	margin-left: 5px;
+	padding: 3px 12px 3px 12px;
+	line-height: 20px;
+}
+
+.quantity :hover {
+	cursor: pointer;
+}
+
+.text-uppercase {
+	font-family: 'IM Fell Great Primer SC', serif;
+	font-size: 16px;
+}
+
+.cart-item-list {
+	font-family: 'Bitter', serif;
+}
+.text-title {
+	font-family: 'IM Fell Great Primer SC', serif;
+}
+.text-rs {
+	font-family: 'Bitter', serif;
+	font-size: 15px;
+}
+
+.checkout-btn {
+	position: relative;
+	left: 91.5%;
+	top: -8%;
+}
+.cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.log-checkout {
+	align-self: center;
+	justify-self: center;
+}
+
+@media only screen and (max-width: 650px) {
+	.container-total {
+		position: relative;
+		right: 13%;
+		top: 2%;
+		width: 100%;
+	}
+	.checkout-btn {
+		position: relative;
+		left: 49%;
+		top: 0%;
+	}
+}

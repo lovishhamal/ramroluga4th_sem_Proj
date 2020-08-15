@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap');
+
+.Login {
+	position: fixed;
+	top: -5%;
+	left: 0%;
+	width: 90%;
+	height: 90vh;
+	border: none;
+	border-radius: 5px;
+	transform: translate(5%, 10%);
+	z-index: 200;
+	overflow: scroll;
+}
+
+.main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.close {
+	padding: 0;
+	margin: 0;
+	align-self: flex-end;
+	position: relative;
+	left: 0;
+	padding: 10px;
+}
+
+.close i {
+	color: #000;
+}
+
+.main-component {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.line {
+	border: 1px solid #fff;
+	height: 500px;
+}
+
+.sign-up {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #fff;
+	padding: 10px;
+	margin: 5px 5px;
+	border-radius: 5px;
+}
+
+.sign-in {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: #fff;
+	padding: 10px;
+	margin: 5px 5px;
+	border-radius: 5px;
+	height: 490px;
+}
+
+.sign-up h3 {
+	font-family: 'IM Fell Great Primer SC', serif;
+}
+
+.sign-in h3 {
+	font-family: 'IM Fell Great Primer SC', serif;
+}
+
+.Form {
+	width: 100%;
+}
+
+Form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.Form div {
+	width: 80%;
+	margin-left: 20px;
+}
+
+.Form form div {
+	position: relative;
+}
+
+.Form form div label {
+	position: absolute;
+	top: 10px;
+	margin-left: 10px;
+	color: #ccc;
+	transition: 0.5s;
+	pointer-events: none;
+}
+
+.Form input:focus {
+	font-size: 18px;
+	outline: 0px !important;
+	-webkit-appearance: none;
+	box-shadow: none !important;
+}
+
+.Form input:focus ~ label {
+	top: -12px;
+	padding: 1px;
+	border-radius: 5px;
+	color: #ccc;
+	opacity: 90%;
+	background: #fff;
+	font-size: 15px;
+}
+
+.Form input:valid ~ label {
+	top: -12px;
+	padding: 0px;
+	border-radius: 5px;
+	color: blue;
+	font-size: 14px;
+	background: #fff;
+	padding: 0;
+	height: 14px;
+}
+
+.password {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 0;
+	padding: 0;
+}
+
+.password input {
+	margin: 0;
+	padding: 0;
+}
+.password div:nth-of-type(1) {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.password div:nth-of-type(2) {
+	flex-shrink: 100;
+	border: 1px solid #ccc;
+	padding: 6px;
+	border-radius: 4px;
+}
+
+.fa-facebook-f {
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 2px;
+}
+
+.errorMessage {
+	color: red;
+	margin-left: 20px;
+}
+
+.address {
+	display: flex;
+	flex-direction: row;
+}
+.address-span {
+	flex: 1;
+}
+@media only screen and (max-width: 700px) {
+	.Login {
+		position: fixed;
+		top: -5%;
+		left: 0%;
+		width: 90%;
+		height: 90vh;
+		background: #e6b800;
+		border: none;
+		border-radius: 5px;
+		transform: translate(5%, 10%);
+		z-index: 200;
+		margin: 0;
+		padding: 0;
+		transition: ease-in 1s;
+	}
+	.social {
+		width: 20%;
+	}
+	.social-msg {
+		display: none;
+	}
+	.password label {
+		font-size: 8px;
+	}
+}

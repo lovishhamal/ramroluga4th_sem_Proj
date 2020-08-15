@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+.Admin-page {
+	background: #f8f9fa;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.submit {
+	margin-left: 10%;
+}
+
+.admin-wrapper {
+	background: #fff;
+	width: 300px;
+	border-radius: 5px;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.link {
+	font-family: 'IM Fell Great Primer SC', serif;
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #024fc0;
+}
+
+.code {
+	font-family: 'Bitter', serif;
+}
+
+.Adminform {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #f8f9fa;
+}
+form > input {
+	width: 250px;
+}
+
+.submit {
+	margin-left: 18%;
+}
+
+.heading {
+	font-family: 'IM Fell Great Primer SC', serif;
+}

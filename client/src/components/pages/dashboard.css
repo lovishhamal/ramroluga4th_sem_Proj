@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap');
+
+.dashboard {
+	margin: 10px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.banner-image {
+	position: relative;
+}
+.image-slider {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-success:focus {
+	outline: none;
+	box-sizing: none;
+}
+
+.image-slider h1 {
+	font-family: 'Alatsi', sans-serif;
+	font-size: 40px;
+}
+
+.list-images {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.list {
+	margin-top: 20px;
+	margin-left: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-right: 100px;
+}
+
+.list img {
+	width: 10%;
+	height: 100px;
+	margin-top: 10px;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+}
+
+.spacer {
+	flex: 1;
+}
+
+/* css of dashboardproduct */
+.dashboardproduct {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.dashprod-delete {
+	margin-top: 28.5%;
+}
+
+@media only screen and (max-width: 650px) {
+	.dashprod-delete {
+		margin-top: 100%;
+	}
+}

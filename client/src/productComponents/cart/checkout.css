@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter&display=swap');
+
+.checkout {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #f8f9fa;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 2%;
+	border: 2px solid rgba(0, 0, 0, 0.125);
+}
+
+.checkout-wrapper {
+	text-transform: capitalize;
+}
+
+.checkout-container {
+	font-family: 'Bitter', serif;
+}
+
+.ordersuccess {
+	font-family: 'Bitter', serif;
+}
